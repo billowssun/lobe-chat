@@ -2,6 +2,66 @@
 
 # Changelog
 
+### [Version 1.75.1](https://github.com/lobehub/lobe-chat/compare/v1.75.0...v1.75.1)
+
+<sup>Released on **2025-03-26**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update siliconcloud models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update siliconcloud models, closes [#7072](https://github.com/lobehub/lobe-chat/issues/7072) ([8a524d4](https://github.com/lobehub/lobe-chat/commit/8a524d4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.75.0](https://github.com/lobehub/lobe-chat/compare/v1.74.11...v1.75.0)
+
+<sup>Released on **2025-03-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Add reasoning content selector and update AutoScroll component, add Xinference provider support.
+
+#### 💄 Styles
+
+- **misc**: Add Gemini 2.5 Pro Experimental model, improve editing scroll experience.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add reasoning content selector and update AutoScroll component, closes [#7056](https://github.com/lobehub/lobe-chat/issues/7056) ([800d675](https://github.com/lobehub/lobe-chat/commit/800d675))
+- **misc**: Add Xinference provider support, closes [#7081](https://github.com/lobehub/lobe-chat/issues/7081) ([e32c8e7](https://github.com/lobehub/lobe-chat/commit/e32c8e7))
+
+#### Styles
+
+- **misc**: Add Gemini 2.5 Pro Experimental model, closes [#7153](https://github.com/lobehub/lobe-chat/issues/7153) ([4213d20](https://github.com/lobehub/lobe-chat/commit/4213d20))
+- **misc**: Improve editing scroll experience, closes [#7149](https://github.com/lobehub/lobe-chat/issues/7149) ([816331f](https://github.com/lobehub/lobe-chat/commit/816331f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.74.11](https://github.com/lobehub/lobe-chat/compare/v1.74.10...v1.74.11)
 
 <sup>Released on **2025-03-25**</sup>
