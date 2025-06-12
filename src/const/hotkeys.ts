@@ -13,6 +13,13 @@ export const HOTKEYS_REGISTRATION: HotkeyRegistration = [
   // basic
   {
     group: HotkeyGroupEnum.Essential,
+    id: HotkeyEnum.ShowApp,
+    keys: combineKeys([KeyEnum.Mod, 'e']),
+    nonEditable: true,
+    scopes: [HotkeyScopeEnum.Global],
+  },
+  {
+    group: HotkeyGroupEnum.Essential,
     id: HotkeyEnum.Search,
     keys: combineKeys([KeyEnum.Mod, 'k']),
     scopes: [HotkeyScopeEnum.Global],
@@ -34,7 +41,7 @@ export const HOTKEYS_REGISTRATION: HotkeyRegistration = [
     group: HotkeyGroupEnum.Essential,
     id: HotkeyEnum.ToggleLeftPanel,
     keys: combineKeys([KeyEnum.Mod, KeyEnum.BracketLeft]),
-    scopes: [HotkeyScopeEnum.Chat],
+    scopes: [HotkeyScopeEnum.Chat, HotkeyScopeEnum.Files],
   },
   {
     group: HotkeyGroupEnum.Essential,
@@ -86,6 +93,12 @@ export const HOTKEYS_REGISTRATION: HotkeyRegistration = [
     id: HotkeyEnum.EditMessage,
     keys: combineKeys([KeyEnum.Alt, KeyEnum.LeftDoubleClick]),
     nonEditable: true,
+    scopes: [HotkeyScopeEnum.Chat],
+  },
+  {
+    group: HotkeyGroupEnum.Conversation,
+    id: HotkeyEnum.ClearCurrentMessages,
+    keys: combineKeys([KeyEnum.Alt, KeyEnum.Shift, KeyEnum.Backspace]),
     scopes: [HotkeyScopeEnum.Chat],
   },
 ];
