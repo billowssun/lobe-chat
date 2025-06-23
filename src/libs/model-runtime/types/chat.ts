@@ -107,6 +107,7 @@ export interface ChatStreamPayload {
     effort?: string;
     summary?: string;
   };
+  reasoning_effort?: 'low' | 'medium' | 'high';
   responseMode?: 'stream' | 'json';
   /**
    * @title 是否开启流式请求
@@ -125,6 +126,7 @@ export interface ChatStreamPayload {
     budget_tokens: number;
     type: 'enabled' | 'disabled';
   };
+  thinkingBudget?: number;
   tool_choice?: string;
   tools?: ChatCompletionTool[];
   /**
@@ -132,6 +134,7 @@ export interface ChatStreamPayload {
    * @default 1
    */
   top_p?: number;
+  truncation?: 'auto' | 'disabled';
 }
 
 export interface ChatMethodOptions {
